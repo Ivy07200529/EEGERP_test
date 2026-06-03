@@ -1,0 +1,31 @@
+# Raw data and generated outputs
+data/**/*
+!data/README.md
+!data/subject1/
+!data/subject1/.gitkeep
+outputs/**/*
+!outputs/.gitkeep
+
+# External dependencies downloaded by users
+external/appear/
+external/**/*
+!external/README.md
+
+# MATLAB generated files
+*.asv
+*.m~
+*.mat
+*.set
+*.fdt
+*.dat
+
+# BrainVision data files
+*.eeg
+*.vhdr
+*.vmrk
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
