@@ -1,6 +1,6 @@
 # External Dependencies
 
-Install APPEAR here before running the pipeline:
+APPEAR is vendored here for convenience:
 
 ```text
 external/
@@ -11,9 +11,9 @@ external/
     funcs/
 ```
 
-The tested local workflow used APPEAR from:
+The upstream project is:
 
 <https://github.com/obada-alzoubi/appear>
 
-This repository does not vendor APPEAR or EEGLAB. Keep third-party code in
-`external/appear/`, which is ignored by git.
+See `external/appear/LICENSE` and bundled EEGLAB/Biosig license files for
+third-party license terms.

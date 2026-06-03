@@ -6,10 +6,11 @@ data/**/*
 outputs/**/*
 !outputs/.gitkeep
 
-# External dependencies downloaded by users
-external/appear/
+# External dependencies
 external/**/*
 !external/README.md
+!external/appear
+!external/appear/**
 
 # MATLAB generated files
 *.asv
