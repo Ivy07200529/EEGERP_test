@@ -11,6 +11,7 @@ external/**/*
 !external/README.md
 !external/appear
 !external/appear/**
+external/appear/images/
 
 # MATLAB generated files
 *.asv
